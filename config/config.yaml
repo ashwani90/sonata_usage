@@ -1,0 +1,7 @@
+fos_user:
+    db_driver: orm
+    firewall_name: main
+    user_class: \Entity\User
+    from_email:
+        address: "ashwani"
+        sender_name: "ashwani90125@gmail.com"
